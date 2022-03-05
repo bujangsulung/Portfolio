@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; " />
+<meta name="description" content="Contact" />
+<title>Contact</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style type="text/css">
+body { width: 980px;
+		height: 100%;
+		background-image: url(kanan.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+.masukan { width: 600px;
+			height:600px;
+			border: 1px solid black;
+			margin: 50% auto;
+			border-radius: 5px;
+			box-shadow: 1px 2px 5px black;
+			}
+form {	font-size: 30px;
+		text-align: center;
+		margin-top: 40px;
+		 }
+input { font-size: 20px;
+		width: 500px;
+		height: 50px;
+		}
+textarea { width: 500px;
+			height: 100px;
+		}
+#tombol{ background-color: #0000ff;
+		 color: #ffffff;
+		 }
+.material-icons {font-size: 60px;
+				 margin-left: 50px; }
+#tele { color: #6495ed; }
+#fb { color: #0000ff; }
+#wa { color: #008000; }
+#home { color: #ffffff;
+		font-size: 100px;
+		border: 2px solid #000000;
+		margin: 0px 439px 0 439px;
+		}
+a { text-decoration: none;
+	background-color: transparent;}
+</style>
+<body>
+<div class="masukan" id="masukan">
+<form method="" action="">
+Nama<br>
+<input type="text" name="nama" placeholder="Nama"><br>
+Email<br>
+<input type="email" name="email" placeholder="Email"><br><br>
+<textarea></textarea><br>
+<input type="submit" name="kirim" value="Kirim" id="tombol"><br>
+</form>
+<br><br><br>
+<span class="material-icons" id="tele">
+telegram
+</span><a href="" class="tele">Telegram</a>
+<span class="material-icons" id="fb">
+facebook
+</span><a href="https://www.facebook.com/nafiah.nafiah.754918" class="fb">Facebook</a>
+<span class="material-icons" id="wa">
+whatsapp
+</span><a href="http://api.whatsapp.com/send?phone=6285714216208" class="wa">Whatsapp</a>
+</div>
+<span class="material-icons" id="home"><a href="index.php" >home</a>
+</span>
+</body>
+</html>
